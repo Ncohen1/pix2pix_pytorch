@@ -1,0 +1,1 @@
+python3 train.py --dataroot ./datasets/ctUs_Data_cropped --name ctUs_pix2pix_withDropout --model pix2pix --which_model_netG unet_256 --which_direction AtoB --lambda_A 100 --dataset_mode aligned --no_lsgan --norm batch --pool_size 0 --input_nc 1 --output_nc 1 --niter 1 --niter_decay 1 --continue_train  

@@ -1,0 +1,3 @@
+python3 test.py --dataroot ./datasets/ctUs_Data_cropped --name ctUs_pix2pix_noDropout --model pix2pix --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --input_nc 1 --output_nc 1 --no_dropout
+python3 test.py --dataroot ./datasets/ctUs_Data_cropped --name ctUs_pix2pix_withDropout --model pix2pix --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --input_nc 1 --output_nc 1
+#python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix --which_model_netG unet_256 --which_direction BtoA --dataset_mode aligned --norm batch

@@ -1,0 +1,2 @@
+python3 test.py --dataroot ./datasets/ctUs_Data_cropped --name usCtTrain_cropped_cyclegan --model cycle_gan --phase test --no_dropout
+#python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan --phase test --no_dropout

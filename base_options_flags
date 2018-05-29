@@ -1,0 +1,20 @@
+--input_nc 1 --output_nc 1 --gpu_ids 0,2 --dataset_mode aligned --identity 0.1 --niter 25 --niter_decay 25 
+
+
+--niter 25 
+--niter_decay 25 
+--init_type [normal|xavier|kaiming|orthogonal]
+--beta1 0.5 #'momentum term of adam'
+--lr 0.0002
+--lambda_B 10.0
+--lambda_A 10.0
+--input_nc 3
+--output_nc 3
+--gpu_ids 0
+--dataset_mode unaligned
+
+
+--pool_size 50
+--lr_policy lambda|step|plateau
+--lr_decay_iters
+--identity 0.5
